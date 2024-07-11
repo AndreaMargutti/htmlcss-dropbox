@@ -7,8 +7,13 @@
 
 /*utilities*/
 
-.container {
+.big-container {
     max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sm-container {
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -23,6 +28,15 @@
 .btn-blue {
     display: inline-block;
     background-color: #0061FF;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column
+}
+
+.clearfix {
+    clear: both;
 }
 
 /*generals*/
@@ -60,10 +74,6 @@ p {
     margin-bottom: 20px;
 }
 
-.flex {
-    display: flex;
-    flex-direction: column
-}
 
 /*header*/
 
