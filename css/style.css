@@ -51,6 +51,7 @@ a {
 h1 {
     font-weight: 800;
     font-size: 4em;
+    margin-bottom: 20px;
 }
 
 p {
@@ -96,14 +97,13 @@ p {
 /*Jumbothrone*/
 
 .jumbo {
-    min-height: 800px;
+    min-height: 500px;
     background-color: #B4D0E7;
     padding: 60px;
 }
 
 .content {
-    min-height: 400px;
-    background-color: pink;
+    min-height: 500px;
 }
 
 .content > a {
@@ -115,6 +115,6 @@ p {
 }
 
 .jumbo  img {
-    height: 600px;
+    height: 450px;
     float: right;
 }
