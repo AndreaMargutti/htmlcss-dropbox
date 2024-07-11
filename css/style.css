@@ -23,5 +23,11 @@ body {
 .navbar {
     display: flex;
     height: 100px;
+    justify-content: space-around;
     background-color: lightblue;
+}
+
+.navbar > div {
+    flex-basis: calc(100% / 4);
+    border: 1px dashed;
 }
