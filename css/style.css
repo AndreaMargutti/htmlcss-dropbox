@@ -131,3 +131,14 @@ p {
 
 /*main*/
 
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+.col  {
+    border: 1px dashed;
+    min-height: 600px;
+    margin: 10px 0;
+    flex-basis: calc(100% / 3);
+}
