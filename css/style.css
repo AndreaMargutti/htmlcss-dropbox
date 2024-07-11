@@ -17,3 +17,11 @@
 body {
     font-family: 'Open Sans' sans-serif;
 }
+
+/*header*/
+
+.navbar {
+    display: flex;
+    height: 100px;
+    background-color: lightblue;
+}
