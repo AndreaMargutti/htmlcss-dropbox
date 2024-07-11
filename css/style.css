@@ -31,3 +31,9 @@ body {
     flex-basis: calc(100% / 4);
     border: 1px dashed;
 }
+
+.nav-link {
+    flex-grow: 1;
+}
+
+/*Jumbothrone*/
