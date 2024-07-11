@@ -27,12 +27,8 @@
 
 /*generals*/
 
-body {
-    font-family: 'Open Sans' sans-serif;
-}
-
-img {
-    display: block;
+html {
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -52,13 +48,30 @@ a {
     padding: 10px 15px;
 }
 
+h1 {
+    font-weight: 800;
+    font-size: 4em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
 /*header*/
+
+/*navbar*/
 
 .navbar {
     display: flex;
     height: 100px;
     align-items: center;
     margin: 0 20px;
+}
+
+.nav-logo > img{
+    display: block;
 }
 
 .nav-logo,
@@ -86,4 +99,17 @@ a {
 .content {
     min-height: 400px;
     background-color: pink;
+}
+
+.content > a {
+    margin-bottom: 20px;
+}
+
+.content > i {
+    margin-top: 30px;
+}
+
+.jumbo  img {
+    height: 600px;
+    float: right;
 }
