@@ -142,8 +142,24 @@ p {
     flex-basis: calc(100% / 3);
 }
 
+.partner {
+    margin-bottom: 30px;
+}
+
 .partner > div {
     min-height: 500px;
     flex-basis: 50%;
     border: 1px dashed;
-}   
+}
+
+.sm-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.sm-col {
+    border: 1px dashed;
+    min-height: 300px;
+    flex-basis: calc(100% / 3 - 20px / 3);
+}
