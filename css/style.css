@@ -79,10 +79,19 @@ p {
 /*navbar*/
 
 .navbar {
+    background-color: white;
     display: flex;
     height: 100px;
     align-items: center;
-    margin: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 3px gray;
+}
+
+.navbar > *{
+    padding: 0 20px;
 }
 
 .nav-logo > img{
@@ -108,7 +117,7 @@ p {
 .jumbo {
     min-height: 500px;
     background-color: #B4D0E7;
-    padding: 60px;
+    padding: 120px;
 }
 
 .content {
