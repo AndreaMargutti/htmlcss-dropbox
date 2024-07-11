@@ -24,7 +24,7 @@ body {
     display: flex;
     height: 100px;
     justify-content: space-around;
-    background-color: lightblue;
+    background-color: gold;
 }
 
 .navbar > div {
@@ -37,3 +37,14 @@ body {
 }
 
 /*Jumbothrone*/
+
+.jumbo {
+    min-height: 800px;
+    background-color: #B4D0E7;
+    padding: 60px;
+}
+
+.content {
+    min-height: 400px;
+    background-color: pink;
+}
