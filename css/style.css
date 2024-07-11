@@ -12,10 +12,44 @@
     margin: 0 auto;
 }
 
+.txt-white {
+    color: white;
+}
+
+.txt-black {
+    color: black;
+}
+
+.btn-blue {
+    display: inline-block;
+    background-color: #0061FF;
+}
+
 /*generals*/
 
 body {
     font-family: 'Open Sans' sans-serif;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    color: black;
+    font-size: 1.5em;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 15px;
 }
 
 /*header*/
@@ -23,17 +57,22 @@ body {
 .navbar {
     display: flex;
     height: 100px;
-    justify-content: space-around;
-    background-color: gold;
+    align-items: center;
+    margin: 0 20px;
 }
 
-.navbar > div {
-    flex-basis: calc(100% / 4);
-    border: 1px dashed;
-}
-
+.nav-logo,
 .nav-link {
+    text-align: left;
+}
+
+.nav-link,
+.nav-supp {
     flex-grow: 1;
+}
+
+.nav-supp  ul {
+    justify-content: flex-end;
 }
 
 /*Jumbothrone*/
