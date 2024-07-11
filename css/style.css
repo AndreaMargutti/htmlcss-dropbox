@@ -61,7 +61,7 @@ p {
 
 .flex {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column
 }
 
 /*header*/
@@ -116,4 +116,5 @@ p {
 
 .jumbo  img {
     height: 600px;
+    float: right;
 }
