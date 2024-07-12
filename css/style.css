@@ -205,3 +205,21 @@ img {
     border-bottom: 1px solid #D8D8DA;
 }
 
+.card-type > * {
+    margin: 10px 0;
+}
+
+.card-type > div:first-child {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.card-type > div:nth-child(2) {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.card-type > div:last-child {
+    font-size: 0.7em;
+    color: #8C8E8F;
+}
