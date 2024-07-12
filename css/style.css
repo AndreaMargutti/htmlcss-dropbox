@@ -36,7 +36,8 @@
 }
 
 .btn-small {
-    padding: 10px 15px;
+    width: 100%;
+    padding: 10px 40px;
 }
 
 .flex {
@@ -229,11 +230,11 @@ img {
 }
 
 .card-info > * {
-    margin-bottom: 20px;
+    height: 60px;
+    margin-bottom: 30px;
 }
 
 .btn-card {
-    margin: 20px 0;
     text-align: center;
 }
 
