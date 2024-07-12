@@ -170,7 +170,7 @@ img {
 
 .col  {
     border: 1px solid #D8D8DA;
-    min-height: 600px;
+    min-height: 400px;
     margin: 10px 0;
     flex-basis: calc(100% / 3);
 }
@@ -243,10 +243,32 @@ img {
     color: blue;
 }
 
-.card-features > *{
+.card-features > * {
     margin-bottom: 20px;
 }
 
 .card-features > div:first-child {
+    font-weight: 700;
+}
+
+.flex-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-card > .card-info {
+    flex-basis: 70%;
+}
+
+.flex-card > div:last-child {
+    flex-basis: 30%;
+}
+
+.card-name {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.card-price {
     font-weight: 700;
 }
