@@ -272,3 +272,16 @@ img {
 .card-price {
     font-weight: 700;
 }
+
+/*partner*/
+
+.partner-text {
+    padding: 40px;  
+}
+
+.partner-text > h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* TODO: finire sezione partner e centralizzare meglio il codice */
