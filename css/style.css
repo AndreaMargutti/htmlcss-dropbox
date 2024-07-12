@@ -36,7 +36,7 @@
 }
 
 .btn-small {
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 
 .flex {
@@ -53,6 +53,10 @@
 
 .mb-30 {
     margin-bottom: 30px;
+}
+
+.blue {
+    color: blue;
 }
 
 /*generals*/
@@ -195,7 +199,7 @@ img {
 /*card*/
 
 .card > * {
-    padding: 15px;
+    padding: 20px;
 }
 
 .card-title {
@@ -222,4 +226,26 @@ img {
 .card-type > div:last-child {
     font-size: 0.7em;
     color: #8C8E8F;
+}
+
+.card-info > * {
+    margin-bottom: 20px;
+}
+
+.btn-card {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.buy-now a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.card-features > *{
+    margin-bottom: 20px;
+}
+
+.card-features > div:first-child {
+    font-weight: 700;
 }
