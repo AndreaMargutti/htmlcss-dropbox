@@ -117,7 +117,7 @@ p {
 .jumbo {
     min-height: 500px;
     background-color: #B4D0E7;
-    padding: 120px;
+    padding: 100px;
 }
 
 .content {
@@ -133,7 +133,7 @@ p {
 }
 
 .jumbo  img {
-    height: 450px;
+    height: 470px;
     float: right;
 }
 
