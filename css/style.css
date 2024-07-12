@@ -30,6 +30,15 @@
     background-color: #0061FF;
 }
 
+.btn-big {
+    font-size: 1.5em;
+    padding: 10px 15px;
+}
+
+.btn-small {
+    padding: 5px 10px;
+}
+
 .flex {
     display: flex;
 }
@@ -65,8 +74,6 @@ li {
 
 a {
     text-decoration: none;
-    font-size: 1.5em;
-    padding: 10px 15px;
 }
 
 h1 {
@@ -157,7 +164,7 @@ img {
 }
 
 .col  {
-    border: 1px dashed;
+    border: 1px solid #D8D8DA;
     min-height: 600px;
     margin: 10px 0;
     flex-basis: calc(100% / 3);
@@ -186,6 +193,10 @@ img {
 }
 
 /*card*/
+
+.card > * {
+    padding: 15px;
+}
 
 .card-title {
     text-align: center;
