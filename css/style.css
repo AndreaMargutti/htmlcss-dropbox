@@ -176,13 +176,12 @@ img {
 }
 
 .partner {
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 .partner > div {
     min-height: 500px;
     flex-basis: 50%;
-    border: 1px dashed;
 }
 
 .sm-row {
