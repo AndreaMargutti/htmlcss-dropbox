@@ -312,10 +312,16 @@ section {
 
 /*free-trial*/
 
-#free-trial {
+#free-trial > .flex {
     min-height: 400px;
+    align-items: center;
+    gap: 40px;
 }
 
-#free-trial > .flex {
-    align-items: center;
+
+#free-trial h2 {
+    color: #61082B;
 }
+
+/*footer*/
+
