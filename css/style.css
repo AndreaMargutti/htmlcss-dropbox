@@ -66,6 +66,7 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 ul {
     list-style: none;
     display: flex;
@@ -104,6 +105,10 @@ p {
 img {
     max-width: 100%;
     display: block;
+}
+
+section {
+    margin-bottom: 80px;
 }
 
 /*header*/
