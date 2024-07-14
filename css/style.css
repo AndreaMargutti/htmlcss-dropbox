@@ -60,6 +60,11 @@
     color: blue;
 }
 
+.std-link {
+    text-decoration: underline;
+    color: blue;
+}
+
 /*generals*/
 
 html {
@@ -248,11 +253,6 @@ section {
 
 .btn-card {
     text-align: center;
-}
-
-.buy-now a {
-    text-decoration: underline;
-    color: blue;
 }
 
 .card-features > * {
