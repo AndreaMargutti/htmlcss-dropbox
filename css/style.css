@@ -65,6 +65,14 @@
     color: blue;
 }
 
+.azure-bg {
+    background-color: #B4D0E7;
+}
+
+.white-bg {
+    background-color: white;
+}
+
 /*generals*/
 
 html {
@@ -300,4 +308,14 @@ section {
 
 .card > p {
     font-size: 0.9em;
+}
+
+/*free-trial*/
+
+#free-trial {
+    min-height: 400px;
+}
+
+#free-trial > .flex {
+    align-items: center;
 }
