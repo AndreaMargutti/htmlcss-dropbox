@@ -73,6 +73,10 @@
     background-color: white;
 }
 
+.txt-gray {
+    color: #999999;
+}
+
 /*generals*/
 
 html {
@@ -325,3 +329,26 @@ section {
 
 /*footer*/
 
+footer {
+    min-height: 400px;
+    background-color: black;
+    padding: 40px
+}
+
+footer > div {
+    align-items: center;
+}
+
+footer div {
+    flex-basis: calc(100% / 5);
+}
+
+footer ul {
+    display: block;
+}
+
+footer li {
+    color: white;
+    font-size: 18px;
+    margin: 10px 0;
+}
