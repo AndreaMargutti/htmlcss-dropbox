@@ -418,3 +418,19 @@ footer li {
 .client.big-client p {
     margin: 70px 0 50px 0;
 }
+
+/*FAQ section*/
+
+#FAQ {
+    margin-bottom: 100px;
+}
+
+#FAQ > * {
+    border-bottom: 1px solid #999999;
+    padding: 30px 0;
+}
+
+#FAQ p {
+    font-weight: bold;
+    margin: 20px 0;
+}
