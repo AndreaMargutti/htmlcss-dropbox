@@ -77,6 +77,42 @@
     color: #999999;
 }
 
+.bg-green {
+    background-color: #A2D39B;
+}
+
+.bg-purple {
+    background-color: #61082B;
+}
+
+.bg-blue {
+    background-color: #0093CE;
+}
+
+.bg-red {
+    background-color: #FF1C1C;
+}
+
+.bg-dark-red {
+    background-color: #D5001F;
+}
+
+.bg-azure {
+    background-color: #B4D0E7;
+}
+
+.bg-darkblue {
+    background-color: #0D2481;
+}
+
+.bg-yellow {
+    background-color: #FFD830;
+}
+
+.bg-lightgray {
+    background-color: #F5F5F5;
+}
+
 /*generals*/
 
 html {
@@ -351,4 +387,34 @@ footer li {
     color: white;
     font-size: 18px;
     margin: 10px 0;
+}
+
+
+/*clients section*/
+
+.client {
+    flex-basis: calc(100vw / 3);
+    height:calc(100vw / 3);
+    flex-wrap: wrap;
+}
+
+.client-logo {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-logo img {
+    width: 50%;
+    filter: invert(1);
+}
+
+.client.big-client {
+    padding: 40px;
+}
+
+.client.big-client p {
+    margin: 70px 0 50px 0;
 }
